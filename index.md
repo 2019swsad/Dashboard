@@ -26,8 +26,8 @@
     - 8.3 [架构设计、详细设计到应用程序框架映射指南](08-code-rules-and-guide-3)
     - 8.4 [部署说明](08-code-rules-and-guide-4)
 * X1 meeting-record
-    - [inception meeting](X1-meeting-record1) (2019/03/17)
-    - [第一次迭代会议](X1-meeting-record2)(2019/03/23)
+    - [inception meeting](X1-meeting-record0) (2019/03/17)
+    - [第一次迭代会议](X1-meeting-record1)(2019/03/23)
   
 * [X2 Tech/Work Report](X2-tech-work-report)
     
