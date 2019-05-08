@@ -9,7 +9,7 @@
 * 5、[Product Backlog](05-product-backlog)（产品特性）
 * 6、Requirement specification（需求规格说明书）
     - 6.1 [Usecase Diagram](06-requirement-specification-1)（用例图）
-    - 6.2 [Use Cases](06-requirement-specification-2)（用例+活动图）
+    - 6.2 [Use Cases](06-requirement-specification-2.pdf)（用例+活动图）
     - 6.3 [Domian Model](06-requirement-specification-3)（领域模型）
     - 6.4 [State Model](06-requirement-specification-4)（状态模型）
     - 6.5 [System Sequence Diagram](06-requirement-specification-5)（功能模型）
