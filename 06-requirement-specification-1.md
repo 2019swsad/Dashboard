@@ -1,2 +1,2 @@
 # 用例图
-![Usecase Diagram](/assets/Usecase Diagram 2.1.jpg)
+![Usecase Diagram](/assets/用例图2.1.jpg)
