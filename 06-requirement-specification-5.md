@@ -1,0 +1,24 @@
+# 功能模型
+- 注册：
+如果注册成功，则在数据库中添加新用户信息；如果注册失败，则返回失败原因(用户已存在等)
+![Usecase Diagram](/assets/SSD_register.jpg)
+- 登录
+![Usecase Diagram](/assets/SSD_login.jpg)
+- 修改个人信息：在数据库完成信息更新后，前端会刷新页面以显示新信息
+![Usecase Diagram](/assets/SSD_modifyInfo.jpg)
+- 发布任务：在发布任务时，后端会检查账户余额是否充足。如果余额充足，则冻结相应金额并在数据库添加任务信息；如果余额不足，则返回余额不足信息。
+![Usecase Diagram](/assets/SSD_releaseTask.jpg)
+- 查找任务：在查找任务时，用户可选择关键词检索与排序方式。后端将相应任务信息发送至前端后，前端根据排序方式对任务信息进行排序并返回给用户。
+![Usecase Diagram](/assets/SSD_getTaskList.jpg)
+- 获取任务详情
+![Usecase Diagram](/assets/SSD_getTaskDetail.jpg)
+- 报名
+- 任务管理
+  - 删除任务：在发布者删除任务时，后端会检测用户删除任务的频率。如果用户频繁删除任务，则会扣除用户的信誉值并告知用户。在任务被从数据库中删除前，后端会对已完成任务的参与者发起结算。结算完毕后会解冻发起者的剩余款项。任务被删除后，会告知发布者与参与者。
+  ![Usecase Diagram](/assets/SSD_deleteTask.jpg)
+  - 退出任务：在参与者退出任务时，后端会检测当前任务的状态。如果任务仍处于报名状态，参与者可直接退出任务；如果任务处于进行状态，后端会对参与者的信誉值进行扣除。
+  ![Usecase Diagram](/assets/SSD_quitTask.jpg)
+  - 取消报名资格：在任务处于报名状态时，发布者可以取消特定报名者的报名资格。资格被取消后，报名者会收到相应通知。
+  ![Usecase Diagram](/assets/SSD_removeApplicant.jpg)
+  - 选择替补人员：在任务处于报名状态时，发布者可以在取消特定报名者资格后，选择替补人员参与任务。被选择的替补人员会收到相应通知。
+  ![Usecase Diagram](/assets/SSD_qualifySubstitute.jpg)
