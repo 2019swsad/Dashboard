@@ -21,7 +21,7 @@
     - 7.4 [Software Architecture Document](07-design-4)
     - 7.5 [Usecase design](07-design-5)
 * 8、生产规范与指南
-    - 8.1 [Owl Movies 代码规范](08-code-rules-and-guide-1)
+    - 8.1 [代码规范](08-code-rules-and-guide-1)
     - 8.2 [REST API 设计规范](08-code-rules-and-guide-2)
     - 8.3 [架构设计、详细设计到应用程序框架映射指南](08-code-rules-and-guide-3)
     - 8.4 [部署说明](08-code-rules-and-guide-4)
