@@ -1,4 +1,12 @@
 # 产品Backlog
+表格说明：
+  - ID: 统一标识符
+  - Name: 功能名称
+  - Imp: 即Importance，功能的重要性。取值范围从5~1，重要性依次递减
+  - Est: 即Estimate，预计工作量，单位为周/人。如：1表示，需要1个人工作1周
+  - How to demo: 简述功能的实现
+  - Notes: 补充说明
+
 ## Iteration1
 
 |ID|Name|Imp|Est|How to demo|Notes|
