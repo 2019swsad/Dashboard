@@ -8,3 +8,5 @@
 ### JavaScript
 英文原版：https://google.github.io/styleguide/jsguide.html
 
+### React/JSX 编码规范（Airbnb）
+https://www.imooc.com/article/20073
