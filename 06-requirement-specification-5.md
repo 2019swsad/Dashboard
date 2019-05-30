@@ -5,21 +5,21 @@
   - 用户提交注册信息后，后端检查用户名是否已存在：
     - 若不存在，则在数据库添加新用户信息，并返回“注册成功”信息；
     - 若已存在，则返回“用户已存在”信息；
-![Usecase Diagram](/assets/SSD_register.jpg)
+![Usecase Diagram](/assets/System Sequence Diagram/SSD_register.jpg)
 
 - 登录
   - 用户在前端输入登录信息；
   - 前端向后端提交信息，后端对信息进行验证；
   - 循环该过程直至信息验证成功；
   - 前端跳转至主页面；
-![Usecase Diagram](/assets/SSD_login.jpg)
+![Usecase Diagram](/assets/System Sequence Diagram/SSD_login.jpg)
 
 ## 一般业务
 - 修改个人信息：
   - 用户向前端提交需要修改的信息；
   - 后端完成信息的更新；
   - 前端更新页面，以显示新的信息；
-![Usecase Diagram](/assets/SSD_modifyInfo.jpg)
+![Usecase Diagram](/assets/System Sequence Diagram/SSD_modifyInfo.jpg)
 
 - 发布任务：
   - 用户在前端输入任务发布信息；
@@ -31,7 +31,7 @@
     - b1. 冻结用户用于酬劳的余额；
     - b2. 在后端添加任务信息；
     - b3. 返回“发布成功”信息；
-![Usecase Diagram](/assets/SSD_releaseTask 2.0.jpg)
+![Usecase Diagram](/assets/System Sequence Diagram/SSD_releaseTask 2.0.jpg)
 
 - 报名
   - 用户向前端发送报名申请；
@@ -40,26 +40,26 @@
     - 若报名人数未超额，则将用户加入报名列表中；
     - 若报名人数超额，则将用户加入候补列表中；
     - 返回报名情况信息；
-![Usecase Diagram](/assets/SSD_applyTask 2.0.jpg)
+![Usecase Diagram](/assets/System Sequence Diagram/SSD_applyTask 2.0.jpg)
 
 - 查找任务：
   - 用户向前端提交“查询任务”请求，并可选排序、分类、关键词检索功能；
   - 前端向后端请求符合关键词和分类的任务列表；
   - 前端对返回的任务列表进行排序；
-![Usecase Diagram](/assets/SSD_getTaskList 2.0.jpg)
+![Usecase Diagram](/assets/System Sequence Diagram/SSD_getTaskList 2.0.jpg)
 
 - 获取任务详情
   - 用户向前端发送“获取任务详情”的请求；
   - 前端将被请求任务的tid及用户的uid发送给后端；
   - 后端向前端返回相应任务详情，并返回用户与任务的关系；
   - 前端根据用户与任务的关系，提供不同的“任务详情”页面（不同角色有不同操作权限）
-![Usecase Diagram](/assets/SSD_getTaskDetail 2.0.jpg)
+![Usecase Diagram](/assets/System Sequence Diagram/SSD_getTaskDetail 2.0.jpg)
 
 - 查看消息
   - 用户向前端发送“查看消息”请求；
   - 前端向后端转发请求；
   - 后端返回相应用户的所有通知消息；
-![Usecase Diagram](/assets/SSD_getMessage.jpg)
+![Usecase Diagram](/assets/System Sequence Diagram/SSD_getMessage.jpg)
 
 ## 任务管理
 - 删除任务：
@@ -76,7 +76,7 @@
     - b4. 返回“降低信誉值”信息；
     - 返回“删除成功”信息;
     - 后端通知参与者“删除任务”信息
-![Usecase Diagram](/assets/SSD_deleteTask 3.0.jpg)
+![Usecase Diagram](/assets/System Sequence Diagram/SSD_deleteTask 3.0.jpg)
 
 - 退出任务：
   - 参与者向前端发送退出任务请求；
@@ -90,13 +90,13 @@
     - b3. 返回“降低信誉值”信息；
     - 返回“退出成功”信息
     - 后端通知发布者“退出任务”信息
-![Usecase Diagram](/assets/SSD_quitTask 2.0.jpg)
+![Usecase Diagram](/assets/System Sequence Diagram/SSD_quitTask 2.0.jpg)
 
 - 查看报名情况：
   - 发布者向前端发送“查看报名情况”请求；
   - 前端向后端转发请求；
   - 后端返回报名列表与候补列表；
-![Usecase Diagram](/assets/SSD_getApplicantList.jpg)
+![Usecase Diagram](/assets/System Sequence Diagram/SSD_getApplicantList.jpg)
  
 - 取消报名资格：
   - 发布者向前端发送取消某位报名者的报名资格请求；
@@ -107,7 +107,7 @@
   - 后端返回报名列表，前端更新页面；
   - 返回“取消成功”信息；
   - 后端通知参与者“取消报名资格”信息；
-![Usecase Diagram](/assets/SSD_removeApplicant 2.0.jpg)
+![Usecase Diagram](/assets/System Sequence Diagram/SSD_removeApplicant 2.0.jpg)
 
 - 选择候补人员：
   - 发布者向前端发送选择特定候补人员的请求；
@@ -121,7 +121,7 @@
     - a5. 后端通知候补人员转正信息；
     - b. 若超额：
     - b1. 返回操作失败信息；
-![Usecase Diagram](/assets/SSD_qualifySubstitute 2.0.jpg)
+![Usecase Diagram](/assets/System Sequence Diagram/SSD_qualifySubstitute 2.0.jpg)
 
 - 开始任务
   - 发布者向前端发送开始任务的请求；
@@ -134,7 +134,7 @@
     - a4. 后端通知参与者任务已开始；
     - b. 若报名人数为0：
     - b1. 返回“人数不足”信息；
-![Usecase Diagram](/assets/SSD_beginTask 2.0.jpg)
+![Usecase Diagram](/assets/System Sequence Diagram/SSD_beginTask 2.0.jpg)
 
 - 完成任务
   - 参与者在前端输入完成码，申请完成任务；
@@ -147,4 +147,4 @@
     - a4. 后端向发布者返回完成与支付信息；
     - b. 若完成码错误：
     - b1. 返回“完成码错误”信息；
-![Usecase Diagram](/assets/SSD_finishTask 2.0.jpg)
+![Usecase Diagram](/assets/System Sequence Diagram/SSD_finishTask 2.0.jpg)
