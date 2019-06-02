@@ -43,8 +43,13 @@
 		1. 参与者会收到系统通知信息；
 		2. 更新任务信息；
 	e. 当参与者需要退出任务时：
-		1. 通知发布者；
-		2. 扣除参与者的信誉值；
+		1. 已到开始时间：
+			1) 退出任务；
+			2) 扣除参与者信誉值；；
+			3) 通知发布者；
+		2. 未到开始时间：
+			1) 退出任务；
+			2) 通知发布者；
 	f. 当发布者需要停止报名时：
 		1. 任务不再接受报名；
 	g. 当发布者需要结束进行中的任务时：
@@ -111,4 +116,5 @@
 - 选择候补流程
 ![Usecase Diagram](assets/Activity Diagram/AD_qualifySubstitute 2.0.jpg)
 
-
+- 退出任务流程
+![Usecase Diagram](assets/Activity Diagram/AD_AD_quitTask.jpg)
