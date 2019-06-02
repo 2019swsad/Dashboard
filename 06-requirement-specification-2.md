@@ -92,5 +92,10 @@
 - 结束任务流程：
 ![Usecase Diagram](assets/Activity Diagram/AD_endTask 2.1.jpg)
 
+- 取消报名资格流程：
+![Usecase Diagram](assets/Activity Diagram/AD_disqualifyParticipant.jpg)
+
+- 选择候补流程
+![Usecase Diagram](assets/Activity Diagram/AD_qualifySubstitute.jpg)
 
 
