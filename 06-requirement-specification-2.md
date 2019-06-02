@@ -104,6 +104,6 @@
 ![Usecase Diagram](assets/Activity Diagram/AD_disqualifyParticipant.jpg)
 
 - 选择候补流程
-![Usecase Diagram](assets/Activity Diagram/AD_qualifySubstitute.jpg)
+![Usecase Diagram](assets/Activity Diagram/AD_qualifySubstitute 2.0.jpg)
 
 
