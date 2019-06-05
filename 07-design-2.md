@@ -1,4 +1,7 @@
 # Database design
+
+要求参考https://sysu-swsad.github.io/swad-guide/08-domain-modeling
+
 ## User
 ```JSON
 {
