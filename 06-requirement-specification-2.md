@@ -89,11 +89,8 @@
 # 活动图
 以下为部分关键且较为复杂的流程的活动图，简单流程暂不提供对应活动图。
 
-- 注册流程：
-![Usecase Diagram](assets/Activity Diagram/AD_Register.jpg)
-
-- 登录流程：
-![Usecase Diagram](assets/Activity Diagram/AD_Login.jpg)
+- 登录注册流程：
+![Usecase Diagram](assets/Activity Diagram/AD_WeChatLogin.jpg)
 
 - 发布任务流程：
 ![Usecase Diagram](assets/Activity Diagram/AD_releaseTask.jpg)
