@@ -5,6 +5,7 @@
  - 任务报名中
  - 任务进行中
  - 任务已结束
+ 
 完整的状态模型如下：
 
 ![Usecase Diagram](assets/State Diagram/Task State Diagram 2.0.jpg)
@@ -15,5 +16,7 @@
 - 订单已完成
 - 订单已关闭
 - 订单已失效
+
+完整的状态模型如下：
 
 ![Usecase Diagram](assets/State Diagram/Order State Diagram 2.0.jpg)
