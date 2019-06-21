@@ -16,7 +16,8 @@
 - 订单已完成
 - 订单已关闭
 - 订单已失效
+- 订单已评价
 
 完整的状态模型如下：
 
-![Usecase Diagram](assets/State Diagram/Order State Diagram 2.2.jpg)
+![Usecase Diagram](assets/State Diagram/Order State Diagram 3.0.jpg)
