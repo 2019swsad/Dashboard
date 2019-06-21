@@ -19,4 +19,4 @@
 
 完整的状态模型如下：
 
-![Usecase Diagram](assets/State Diagram/Order State Diagram 2.0.jpg)
+![Usecase Diagram](assets/State Diagram/Order State Diagram 2.1.jpg)
