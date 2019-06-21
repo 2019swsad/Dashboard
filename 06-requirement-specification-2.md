@@ -114,4 +114,4 @@
 ![Usecase Diagram](assets/Activity Diagram/AD_qualifySubstitute 2.0.jpg)
 
 - 退出任务流程
-![Usecase Diagram](assets/Activity Diagram/AD_AD_quitTask.jpg)
+![Usecase Diagram](assets/Activity Diagram/AD_quitTask.jpg)
