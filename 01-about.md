@@ -4,7 +4,8 @@
 TaskCat是大学生通过做任务挣钱的云平台，它属于以运营为中心的服务软件，也可以理解为面向大学生的专业“众包”平台。其系统构成很简单，由一个React Native框架搭建的网站及MongoDB数据库构成。其基本业务是：用户在平台上发布任务和接收任务。发布任务需要消耗一定的代币，而接收任务可以为用户赚取代币。代币可以通过充值获得，也可以进行提现。
 
 ## 2、项目结构
-![Usecase Diagram](assets/Other Pictures/Project Structure.jpg)
+
+![Project Structure](assets/Other Pictures/Project Structure.jpg)
 
 ## 3、Iterations 迭代
 **Iterations 1:**
