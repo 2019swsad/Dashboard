@@ -8,7 +8,7 @@
 ## 项目背景
 为清晰地展示本项目的背景，我们拟使用SET模型，从社会Sociocultural、经济Economic和技术Technological三个维度来分析，结果如下：
 
-![Project Background](assets/Other Pictures/Project Background.jpg)
+![Project Background](assets/Other_Pictures/Project_Background.jpg)
 
 ## 最具价值的业务场景故事
 大学生正值“象牙塔”和“社会”的过渡期，在从家庭温暖的港湾逐渐出航到波涛汹涌的大海的过程中，他们会逐渐产生独立意识，并热衷于寻求实现财务自由的途径。然而如今各所大学都在积极推动学术水平的提高，大学生的课业也较为繁忙，使得学生不具备通过兼职赚钱的条件。另一方面，当代大学生在参加竞赛或科研的过程中，又需要收集大量的数据样本，而仅仅通过群发消息的方式搜集样本的效率又较低，阻碍了他们研究的步伐。
@@ -24,4 +24,4 @@
 
 ## 简短的竞争或趋势分析，如 SWOT分析模型，盈亏平衡点模型等
 
-![SWOT](assets/Other Pictures/SWOT.jpg)
+![SWOT](assets/Other_Pictures/SWOT.jpg)
