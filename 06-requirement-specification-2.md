@@ -90,28 +90,28 @@
 以下为部分关键且较为复杂的流程的活动图，简单流程暂不提供对应活动图。
 
 - 登录注册流程：
-![Usecase Diagram](assets/Activity Diagram/AD_WeChatLogin.jpg)
+![Usecase Diagram](assets/Activity_Diagram/AD_WeChatLogin.jpg)
 
 - 发布任务流程：
-![Usecase Diagram](assets/Activity Diagram/AD_releaseTask.jpg)
+![Usecase Diagram](assets/Activity_Diagram/AD_releaseTask.jpg)
 
 - 查看任务详情流程：
-![Usecase Diagram](assets/Activity Diagram/AD_getTaskDetail.jpg)
+![Usecase Diagram](assets/Activity_Diagram/AD_getTaskDetail.jpg)
 
 - 报名流程：
-![Usecase Diagram](assets/Activity Diagram/AD_applyTask.jpg)
+![Usecase Diagram](assets/Activity_Diagram/AD_applyTask.jpg)
 
 - 完成任务流程：
-![Usecase Diagram](assets/Activity Diagram/AD_finishTask.jpg)
+![Usecase Diagram](assets/Activity_Diagram/AD_finishTask.jpg)
 
 - 结束任务流程：
-![Usecase Diagram](assets/Activity Diagram/AD_endTask 2.1.jpg)
+![Usecase Diagram](assets/Activity_Diagram/AD_endTask_2.1.jpg)
 
 - 取消报名资格流程：
-![Usecase Diagram](assets/Activity Diagram/AD_disqualifyParticipant.jpg)
+![Usecase Diagram](assets/Activity_Diagram/AD_disqualifyParticipant.jpg)
 
 - 选择候补流程
-![Usecase Diagram](assets/Activity Diagram/AD_qualifySubstitute 2.0.jpg)
+![Usecase Diagram](assets/Activity_Diagram/AD_qualifySubstitute_2.0.jpg)
 
 - 退出任务流程
-![Usecase Diagram](assets/Activity Diagram/AD_quitTask.jpg)
+![Usecase Diagram](assets/Activity_Diagram/AD_quitTask.jpg)
