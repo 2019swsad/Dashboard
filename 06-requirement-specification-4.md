@@ -8,7 +8,7 @@
  
 完整的状态模型如下：
 
-![Usecase Diagram](assets/State Diagram/Task State Diagram 2.0.jpg)
+![Usecase Diagram](assets/State_Diagram/Task_State_Diagram_2.0.jpg)
 ## 订单状态机
 订单状态机是由报名者控制的，并会受到任务状态机影响。由5种主要状态和其他次要状态组成，主要状态有：
 - 订单进行中
@@ -20,4 +20,4 @@
 
 完整的状态模型如下：
 
-![Usecase Diagram](assets/State Diagram/Order State Diagram 3.0.jpg)
+![Usecase Diagram](assets/State_Diagram/Order_State_Diagram_3.0.jpg)
