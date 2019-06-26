@@ -15,4 +15,4 @@
 
 **会议记录思维导图**
 
-![meeting1](/assets/Meeting_Record_3.23.png)
+![meeting1](/assets/Meeting_Record/Meeting_Record_323.png)
