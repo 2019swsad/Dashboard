@@ -1,2 +1,2 @@
 # 领域模型
-![Usecase Diagram](/assets/Domain Model/Domain Model 2.2.jpg)
+![Usecase Diagram](/assets/Domain_Model/Domain_Model_2.2.jpg)
