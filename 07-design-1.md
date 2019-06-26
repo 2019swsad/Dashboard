@@ -9,19 +9,19 @@
 
 ### 背景色
 
-![Background Color](assets/Other Pictures/Background Color.jpg)
+![Background Color](assets/Other_Pictures/Background_Color.jpg)
 
 ### 字体
 
-![Text Color](assets/Other Pictures/Text Color.jpg)
+![Text Color](assets/Other_Pictures/Text_Color.jpg)
 
 ### 按钮
 
-![Button Color](assets/Other Pictures/Button Color.jpg)
+![Button Color](assets/Other_Pictures/Button_Color.jpg)
 
 ## 页面导航
 
-![TaskCat Mapping](assets/Other Pictures/TaskCat Mapping.jpg)
+![TaskCat Mapping](assets/Other_Pictures/TaskCat_Mapping.jpg)
 
 
 ## 登录页面
