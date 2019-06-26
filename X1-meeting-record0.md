@@ -14,6 +14,5 @@
 
 3. 确定了基本的项目分工
 
-**会议记录思维导图**
-
-![meeting1](/assets/Meeting Record_3.17.png)
+**会议记录思维导图**  
+![meeting1](assets/Meeting_Record/Meeting_Record_317.png)
