@@ -31,6 +31,6 @@
   
 * [X2 Tech/Work Report](X2-tech-work-report)
 
-* X3 [Prototype](http://www.volley99.com/)
+* X3 [Prototype](http://47.101.209.167)
     
 * X4 Final Report
