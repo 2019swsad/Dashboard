@@ -26,33 +26,66 @@
 
 ## 登录页面
 
+![登录](assets/UI/登录.png)
+
 ## 注册页面
+
+![注册](assets/UI/注册.png)
 
 ## 首页
 
+![首页](assets/UI/首页.png)
+
 ## 任务页面
+
+![任务](assets/UI/任务.png)
 
 ## 用户页面
 
+![我的](assets/UI/我的.png)
+
 ## 用户信息
+
+![用户信息](assets/UI/用户信息.png)
 
 ## 用户钱包
 
+![登录](assets/UI/登录.png)
+
 ## 消息列表
+
+![消息列表](assets/UI/消息列表.png)
 
 ## 登出
 
+![登出](assets/UI/登出.png)
+
 ## 任务发布
+
+![任务发布1](assets/UI/任务发布1.png)
+
+![任务发布2](assets/UI/任务发布2.png)
+
 
 ## 任务搜索
 
+![任务搜索](assets/UI/任务搜索.png)
+
 ## 任务详情
+
+![任务详情](assets/UI/任务详情.png)
 
 ## 任务评价
 
+![任务评价](assets/UI/任务评价.png)
+
 ## 候选列表
 
+![候选列表](assets/UI/候选列表.png)
+
 ## 地图
+
+![附近](assets/UI/附近.png)
 
 
 
