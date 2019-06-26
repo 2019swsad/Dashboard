@@ -15,8 +15,4 @@
 
 **会议记录思维导图**
 
-<<<<<<< HEAD
-![meeting1](/assets/Meeting Record_3.23.png)
-=======
 ![meeting1](/assets/Meeting_Record/Meeting_Record_323.png)
->>>>>>> 2fe2257914b630725b8835ccd97af4acf6e56728
