@@ -8,7 +8,14 @@
 
 ### 背景色
 
+![Background Color](assets/Other Pictures/Background Color.jpg)
+
 ### 字体
+
+![Text Color](assets/Other Pictures/Text Color.jpg)
+
 ### 按钮
+
+![Button Color](assets/Other Pictures/Button Color.jpg)
 
 ## 页面导航
