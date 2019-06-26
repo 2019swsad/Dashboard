@@ -25,7 +25,7 @@
     - 8.2 [REST API 设计规范](08-code-rules-and-guide-2)
     - 8.3 [架构设计、详细设计到应用程序框架映射指南](08-code-rules-and-guide-3)
     - 8.4 [部署说明](08-code-rules-and-guide-4)
-* 9、[Software Design |软件设计文档](09-software-design)
+* 9、[Software Design 软件设计文档](09-software-design)
 * X1 meeting-record
     - [inception meeting](X1-meeting-record0) (2019/03/17)
     - [第一次迭代会议](X1-meeting-record1)(2019/03/23)
