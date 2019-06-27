@@ -92,3 +92,12 @@ module.exports = { getNow, isEarly }
 在OOP中最显著的就是将许多东西都对象化,特别是重要数据和复杂一点的数据,都采取了对象化,如:用户,订单,任务,钱包,转账等,都采用了JSON的对象来进行包装,包装后就能直接形成能读能写,也能继续修改,并且能直接和前端进行通讯.  
 如在contorller/userController.js中的user对象设计能参考Joi的检查schema,可以看到每个对象都是需要包含5个必须的属性
 
+```JavaScript
+const userRegSchema = Joi.object().keys({
+    username: Joi.string().alphanum().min(3).max(30).trim().required(),
+    password: Joi.string().regex(/^[a-zA-Z0-9]{3,30}$/).required(),
+    email: Joi.string().email({ minDomainSegments: 2, }).required(),
+    phone: Joi.string().regex(/^[0-9]{11}$/).required(),
+    nickname: Joi.string().min(2).max(20).trim().required()
+});
+```
