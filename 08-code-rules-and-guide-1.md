@@ -69,13 +69,13 @@ CSS代码需有明显的代码缩进。每一个样式类之间空出一行。
 
 尽量使用简写属性，并且同一属性放置在一起，避免散乱。
 
-/**使用简写属性**/
+使用简写属性
 
     .v-image{
       margin: 0 auto;
     }
 
-/**同一属性放在一块**/
+同一属性放在一块
 
     .v-tag{
       margin-left: 10rpx;
@@ -91,6 +91,95 @@ CSS代码需有明显的代码缩进。每一个样式类之间空出一行。
     }
 
 
+### JS规范
+
+命名规范
+变量名以及函数名统一采用驼峰命名法，正常情况下函数名前缀需加上清晰的动词表示函数功能，私有函数或者属性以下划线开头表明。常量需用const 声明。
+
+类的命名首字母需大写。
+
+采用ES6 关键字let定义变量，尽量不使用var
+
+    //定义常量
+    const a = 1
+    
+    //定义变量
+    let imageContent =  res.data
+    
+    //函数命名
+    getInfo:function(){
+      return '';
+    }
+    
+    //私有函数
+    _getInfo:function(){
+      return '';
+    }
+
+回调函数规范
+回调函数统一使用Promise函数的方式进行编写，回调成功的参数统一为res，错误参数为err。
+
+    // promise 处理回调
+    let back = new Promise((resolve, reject) => {
+      if (/* 异步操作成功 */){
+        resolve(value);
+      } else {
+        reject(error);
+      }
+    });
+    
+    back.then((res) => {
+        console.log('成功回调！', res);
+    }).catch((err) => {
+        console.log('失败回调！', error);
+    });
+
+
+
+私有函数以及回调函数统一放置在生命周期函数后。
+
+
+
+删除js文件中未用到的生命周期函数，保持代码的整洁。
+
+    Pages({
+      data:{
+         
+      },
+      
+      onLoad:function(event){
+        
+      },
+      
+      _self:function(){
+        
+      }
+    })
+
+
+每个函数之间用一个空行分离结构。
+
+数据绑定变量定义规范
+所有涉及到数据绑定的变量均需在data中初始化。禁止在不定义的情况下直接setData。
+
+    Pages({
+      data:{
+         id : null
+      },
+      
+      onLoad:function(event){
+        let id = event.target.dataset.id
+        this.data.id = id
+      }
+    })
+
+点击事件规范
+
+点击事件函数命名方式为 on + 事件名 或者业务名。
+
+    onLike: function(event){
+      
+    }
 
 ## 后端
 本次后端采用自定ESlint规范,基本要求看齐Google Style  
