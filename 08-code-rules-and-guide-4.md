@@ -1,12 +1,12 @@
 # 服务器部署说明
 
-**源码地址：**[server仓库](https://github.com/2019swsad/server)
+**源码地址**：[server仓库](https://github.com/2019swsad/server)
 
-**环境要求：**node.js v10.16.0
+**环境要求**：node.js v10.16.0
 
-**证书：**本项目使用Https进行加密，部署服务器需要ssl证书才能成功部署。证书恕不提供，需要回落http或自行设置证书目录请在app/app.js修改。
+**证书**：本项目使用Https进行加密，部署服务器需要ssl证书才能成功部署。证书恕不提供，需要回落http或自行设置证书目录请在app/app.js修改。
 
-**DB要求：**安装MongoDB并运行。
+**DB要求**：安装MongoDB并运行。
 
 ## 部署步骤
 
