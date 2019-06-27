@@ -48,6 +48,48 @@ wxml标签可以单独出现的情况，尽量单独出现，如。
     
     <view>...</view>
 
+### WCSS规范
+1.    CSS规范 
+在开发过程中rpx和px均可能用到，如通常情况下间距使用rpx，字体大小和边框等使用px，开发者根据实际情况而定。
+
+    width: 100rpx;
+    font-size: 14px;
+
+CSS代码需有明显的代码缩进。每一个样式类之间空出一行。
+
+    .v-tag{
+      width: 100%;
+    }
+    
+    .v-container{
+      width: 100%;
+    }
+    
+    
+
+尽量使用简写属性，并且同一属性放置在一起，避免散乱。
+
+/**使用简写属性**/
+
+    .v-image{
+      margin: 0 auto;
+    }
+
+/**同一属性放在一块**/
+
+    .v-tag{
+      margin-left: 10rpx;
+      margin-right: 10rpx
+    }
+
+
+采用flex进行布局，禁止使用float以及vertical-align。
+
+    .container{
+      disaplay: flex;
+      flex-dirextion: row
+    }
+
 
 
 ## 后端
