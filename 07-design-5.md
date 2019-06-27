@@ -33,3 +33,40 @@
 
 ![Usecase Diagram](assets/BCEDiagram/SignUpTask_Class.jpg)
 
+## 查看任务用例
+### 顺序图
+
+![Usecase Diagram](assets/BCEDiagram/usecase-6-7-task.jpg)
+
+### 类图
+
+![Usecase Diagram](assets/BCEDiagram/class-6-7-task.jpg)
+
+## 查看消息用例
+### 顺序图
+
+![Usecase Diagram](assets/BCEDiagram/usecase-10-msg-center.jpg)
+
+### 类图
+
+![Usecase Diagram](assets/BCEDiagram/class-10-msg-center.jpg)
+
+## 充值提现用例
+### 顺序图
+
+![Usecase Diagram](assets/BCEDiagram/usecase-4-5-wallet.jpg)
+
+### 类图
+
+![Usecase Diagram](assets/BCEDiagram/class-4-5-wallet.jpg)
+
+## 修改信息用例
+### 顺序图
+
+![Usecase Diagram](assets/BCEDiagram/usecase-3-modify-user-info.jpg)
+
+### 类图
+
+![Usecase Diagram](assets/BCEDiagram/class-3-modify-user-info.jpg)
+
+
