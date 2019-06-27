@@ -30,12 +30,15 @@ app.use(passport.initialize())
 app.use(passport.session())
 app.use(router());
 ```
+
 这样的结构中就是完整由语法糖粘合,各种模块,不管是自己写的亦或者是其它引入的模块,都能很好地一起工作
 
 - 再如
+
 ```JavaScript
 user = await personDB.find({ username: username, password: password }).then((doc) => { return doc })
 ```
+
 这样直接采用现有数据来查询,直接得到数据对象,就能很简单地来增删查改
 
 
@@ -73,6 +76,7 @@ module.exports = router;
 
 ## 详细设计
 - 部分 helper 则是将所有的逻辑先打包,再统一进行暴露,避免了数据库的暴露,从而降低风险
+
 ```JavaScript
 const date = require("silly-datetime")
 
@@ -86,6 +90,7 @@ function isEarly(time1, time2) {
 }
 module.exports = { getNow, isEarly }
 ```
+
 - 简单的一个helper就是这种设计方案,将其逻辑全部包含在内而不暴露在外,这样也减少了相互引用导致的编译问题.
 
 ## 模块划分
@@ -99,6 +104,7 @@ module.exports = { getNow, isEarly }
 - 头像:处理头像的上传下载
 
 所有逻辑代码均位于 app/中,其目录结构如下
+
 ```bash
 │  app.js
 │  app.kubernetes.js
