@@ -54,9 +54,7 @@ const Router = require('koa-router'),
     indexRouter=require('../controllers/indexRender'),
     fileRouter=require('../controllers/fileController'),
     msgRouter=require('../controllers/msgController');
-
-
-
+    
 const router=combineRouters (
     userRouter,
     indexRouter,
@@ -68,6 +66,7 @@ const router=combineRouters (
 )
 module.exports = router;
 ```
+
 - 将所有的路由都在各自 Controller 中生成,再进行导出在一个总路由中,可以使得各模块能分别维护而在基本的物理意义上不互相影响.
 
 ## 详细设计
