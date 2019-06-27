@@ -3,10 +3,10 @@
 使用https协议
 
 ## 2、版本
-将API的版本放入URL中，例如： https://owl.com/v1
+将API的版本放入URL中，例如： https://www.volley99.com/v1
 
 ## 3、路径
-由于REST API是面向资源的，所以路径中只能出现名词，不能出现动词，所用名词尽量参考数据库表的设计,例如： https://owl.com/v1/movies https://owl.com/v1/users
+由于REST API是面向资源的，所以路径中只能出现名词，不能出现动词，所用名词尽量参考数据库表的设计,例如： https://www.volley99.com/v1/movies https://www.volley99.com/v1/users
 
 ## 4、http请求方式
 GET（SELECT）：从服务器取出资源（一项或多项）。
@@ -21,16 +21,16 @@ DELETE（DELETE）：从服务器删除资源。
 
 使用例子：
 
-GET /movies：列出所有电影
+GET /users：获取所有用户
 
-POST /movies：新建一个电影
+POST /users/login: 根据http消息携带的request body进行登录操作
 
-GET /movies/ID：获取某个指定电影的信息
+GET /users/self：获取目前登陆用户的信息
 
 ## 5、过滤信息
 如果对资源的需求不是全部，那么需要提供过滤的参数，例如：
 
-https://owl.com/v1/movies?name=abc 返回名字为abc的电影
+https://www.volley99.com/v1/usesrs?nickname=pip 返回昵称为pip的用户。
 
 ## 6、数据
 使用json数据格式进行数据传递。
