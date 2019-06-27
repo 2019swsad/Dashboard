@@ -5,7 +5,7 @@ TaskCat 是大学生通过做任务挣钱的云平台，它属于以运营为中
 
 ## 2、项目结构
 
-![Project Structure](assets/Other_Pictures/Project_Structure.jpg)
+![Project Structure](assets/Other_Pictures/Project_Structure.png)
 
 ## 3、Iterations 迭代
 **Iterations 1:**
