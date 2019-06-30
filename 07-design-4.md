@@ -10,4 +10,4 @@
 部署设计为简单的"安装依赖-启动"模式,其为简单的进行node依赖安装后就能开箱即用,也能配合nginx或者其它服务器转发端投入生产环境.不采用这些而直接用node启动并投入服务也是可以的.
 
 ## 逻辑视图
-![logic_view](assets/Other_Pictures/logical.jpg)
+![logic_view](assets/Other_Pictures/cat.jpg)
