@@ -11,3 +11,6 @@
 
 ## 逻辑视图
 ![logic_view](assets/Other_Pictures/cat.jpg)
+
+## 物理视图
+![logic_view](assets/Other_Pictures/DeploymentDiagram.jpg)
