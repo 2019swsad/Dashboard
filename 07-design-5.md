@@ -33,6 +33,15 @@
 
 ![Usecase Diagram](assets/BCEDiagram/SignUpTask_Class.jpg)
 
+## 完成任务用例
+### 顺序图
+
+![Usecase Diagram](assets/BCEDiagram/usecase-6.1-finish-task.jpg)
+
+### 类图
+
+![Usecase Diagram](assets/BCEDiagram/class-6.1-finish-task.jpg)
+
 ## 查看任务用例
 ### 顺序图
 
