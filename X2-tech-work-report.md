@@ -24,6 +24,8 @@
 
 * [16340195-Axure原型部署到云服务器教程](https://blog.csdn.net/qq_19653127/article/details/94206448)
 
+* [16340195-Axure实战——实现登录注册功能](https://blog.csdn.net/qq_19653127/article/details/94232651)
+
 * [15322220](https://stevewuzhi.github.io/2019/06/28/simple-node-docker/)
 
 * [15322220](https://stevewuzhi.github.io/2019/06/28/simple-nginx-reverse-proxy/)
