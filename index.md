@@ -47,3 +47,5 @@
 * [X6 User manual](https://github.com/2019swsad/Dashboard/blob/master/User-manual.pdf)(用户手册)
 
 * [X7 Demonstate Video](X7-DemonstateVideo)(展示视频)
+
+* [X8 auditing-records](auditing-records)
