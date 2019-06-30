@@ -6,7 +6,7 @@
 |16340195|[CarlSome](https://github.com/CarlSome)|||
 |16340177|[flyingmanPan](https://github.com/flyingmanPan)|||
 |16340291|[PeanutADi](https://github.com/PeanutADi)|需求审计|https://github.com/sysu-swsad-2019/Document/issues/3|
-|16340275|[stwie2k](https://github.com/stwie2k)|||
+|16340275|[stwie2k](https://github.com/stwie2k)|需求审计|https://github.com/sysu-swsad-2019/SWSAD/issues/39|
 |15322220|[gyakkun](https://github.com/gyakkun)|需求审计|https://github.com/sysu-swsad-2019/Document/issues/4|
 
 ## 2. 设计审计
