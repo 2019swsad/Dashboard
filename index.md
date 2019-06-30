@@ -45,3 +45,5 @@
 * [X5 Team Final Report](X5-team-final-report)(小组分工、贡献度等)
 
 * [X6 User manual](https://github.com/2019swsad/Dashboard/blob/master/User-manual.pdf)(用户手册)
+
+* [X7 Demonstate Video](X7-DemonstateVideo)(展示视频)
